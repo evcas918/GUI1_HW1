@@ -6,6 +6,16 @@ Created: May 28, 2025
 */
 
 /* General Body Styling */
+.large-img {
+    width: 800px;
+    height: auto;
+}
+
+.med-img {
+    width: 400px;
+    height: auto;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -16,13 +26,23 @@ body {
 }
 
 header {
-    background-color: #1a1a1a;
+    background-image: url("../images/ucl_background.jpg");
+    background-size: cover;
+    background-position: center;
     color: white;
-    padding: 20px 0;
+    padding: 155px 0;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-h1, h2 {
+
+h1 {
+    color: white;
+    font-size: 48px;
+
+}
+
+h2 {
     color: #2e86de;
 }
 
